@@ -11,7 +11,9 @@
 <header class="padding-h">
 
         <p id="p1">< abhaytank_ ></p>
-    <p><img src="110801_sun_icon1.svg" alt=""></p>
+    <p ><img src="110801_sun_icon1.svg" id="icon" alt=""></p>
+
+
 
 </header>
 
@@ -67,16 +69,16 @@
         <ul class="lists">
             <li class="li1">100x MicroBlogging App</li>
             <ul class="lists2" >
-                <li class="li2">Full Functional Clone of X.com { Previously Twitter } • Capstone Project @ 100xEngineers <br> <a href="https://github.com/notabhaytank/">abhaytank.in/capstone</a> </li>
+                <li class="li2">Full Functional Clone of X.com { Previously Twitter } • Capstone Project @ 100xEngineers <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/capstone</a> </li>
             </ul>
             <li class="li1">Spotify Clone</li>
             <ul class="lists2" >
-                <li class="li2"> Imaginary Project { Just to fill Space } • HTML • TailWind CSS  • JS <br> <a href="https://github.com/notabhaytank/">abhaytank.in/spotify</a> </li>
+                <li class="li2"> Imaginary Project { Just to fill Space } • HTML • TailWind CSS  • JS <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/spotify</a> </li>
             </ul>
 
             <li class="li1">TWITTER SENTIMENT ANALYSIS</li>
             <ul class="lists2" >
-                <li class="li2">Analytics Project { Just to fill Space } • Python • ML <br> <a href="https://github.com/notabhaytank/">abhaytank.in/analytics</a> </li>
+                <li class="li2">Analytics Project { Just to fill Space } • Python • ML <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/analytics</a> </li>
             </ul>
 
         </ul><br>
@@ -117,14 +119,24 @@
 <footer>
     <hr><br>
     <ul id="icons">
-        <li><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></li>
-        <li><i class="fa-solid fa-envelope" style="color: #000000;"></i></li>
-        <li><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></li>
-        <li><i class="fa-brands fa-instagram" style="color: #000000;"></i></li>
-        <li><i class="fa-brands fa-github" style="color: #000000;"></i></li>
+        <li><i class="fa-brands fa-linkedin-in color" ></i></li>
+        <li><i class="fa-solid fa-envelope color" ></i></li>
+        <li><i class="fa-brands fa-x-twitter color" ></i></li>
+        <li><i class="fa-brands fa-instagram color" ></i></li>
+        <li><i class="fa-brands fa-github color" ></i></li>
 
     </ul>
     <p>Assignment, 01 HTML & CSS</p>
 </footer>
+<script type="text/javascript">
+    var icon = document.getElementById("icon");
+    icon.onclick = function (){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "moon.svg"
+        }else icon.src = "110801_sun_icon1.svg"
+    }
+
+</script>
 </body>
 </html>
