@@ -8,9 +8,9 @@ body{
     font-family: Montserrat, sans-serif;
 }
 .lists{
-    padding: 2px 0px;
+    padding: 2px 0;
     list-style: none;
-    margin: 25px 0px ;
+    margin: 25px 0;
 }
 header{
 
@@ -23,7 +23,7 @@ color: black;
     position: fixed;
     background-color: white;
     justify-content: space-between;
-    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 
 }
 .intro p {
@@ -31,17 +31,18 @@ color: black;
 }
 #div1{
     margin-bottom: 30px;
+    padding-left: 5px;
 }
 i{
     margin-top:2px;
 }
 .buttons span{
-    margin: 0px 15px ;
+    margin: 0 15px ;
 }
 .buttons{
     display: flex;
     text-align: right;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     width: 300px;
     color: white;
@@ -49,13 +50,13 @@ i{
     /*justify-content: center;*/
 
 
-    margin :10px 0px;
+    margin :10px 0;
     border-radius: 7px;
     background: #000000;
 
     /* shadow */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
-    border-top-left-radius: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 0;
 
 
     /*color:white;*/
@@ -77,16 +78,16 @@ main{
 
 .lists .li1{
     border-left: 4px solid #d8720d;
-    padding: 0px 15px;
+    padding: 0 15px;
     text-transform: uppercase;
     font-weight: 400;
 
 }
 .padding-h{
-    padding: 2px 20px 0px 20px;
+    padding: 2px 20px 0 20px;
 }
 .padding{
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
 }
 header p{
     font-weight:500;
@@ -105,7 +106,7 @@ article{
 
 .li2{
     list-style: none;
-    padding: 4px 0px 20px;
+    padding: 4px 0 20px;
     line-height: 21px;
 }
 
