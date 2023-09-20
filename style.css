@@ -16,7 +16,7 @@ header{
 
 
     display: flex;
-    width: 100%;
+    width: 100vw;
     top: 0;
 color: black;
     height: auto;
@@ -158,4 +158,192 @@ main div img{
 .lists li{
     margin-bottom: 5px;
 
+}
+
+@media (min-width: 769px) {
+
+
+    body{
+        margin: auto;
+
+        background-color: white;
+
+
+        /*margin: 0px 20px 0px 20px;*/
+        font-family: Montserrat, sans-serif;
+    }
+    .lists{
+        padding: 2px 0;
+        list-style: none;
+        margin: 25px 0;
+    }
+    main{
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+    header{
+        /*margin: auto;*/
+
+        /*display: flex;*/
+        /*padding-left: 25vw;*/
+        /*padding-right: 25vw;*/
+        /*top: 0;*/
+        /*width: auto;*/
+        /*color: #00000a;*/
+        /*width: ;*/
+        /*position: fixed;*/
+        /*background-color: white;*/
+        /*justify-content: space-around;*/
+        /*box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);*/
+        padding: 10px 0; /* Adjust padding as needed */
+        position: fixed; /* Fix the navigation bar at the top of the viewport */
+        top: 0; /* Position it at the top */
+        width: 100%;
+        display:none ;
+        justify-content: space-between;
+
+
+
+
+    }
+    .intro p {
+        line-height: 21px;
+    }
+    #div1{
+        margin-bottom: 30px;
+        padding-left: 5px;
+    }
+    i{
+        margin-top:2px;
+    }
+    .buttons span{
+        margin: 0 15px ;
+    }
+    .buttons{
+        display: flex;
+        text-align: right;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        width: 300px;
+        color: white;
+        padding: 10px 14px;
+        /*justify-content: center;*/
+
+
+        margin :10px 0;
+        border-radius: 7px;
+        background: #000000;
+
+        /* shadow */
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+        border-top-left-radius: 0;
+
+
+        /*color:white;*/
+        /*background-color: black;*/
+        /*border: 1px solid white;*/
+        /*border-radius:50px;*/
+        /*width: 300px;*/
+        /*padding: 10px 20px;*/
+        /*margin :5px 0px;*/
+
+    }
+    header p{
+        padding-top: 3px;
+    }
+    main{
+        margin-top: 100px;
+
+    }
+
+    .lists .li1{
+        border-left: 4px solid #d8720d;
+        padding: 0 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+    .padding-h{
+        padding: 2px 20vw 0 20vw;
+    }
+    .padding{
+
+        /*padding: 20px 200px 0 200px;*/
+    }
+    header p{
+        font-weight:500;
+
+    }
+    article{
+        margin-bottom: 40px;
+    }
+    .lists2{
+        padding-left: 20px;
+        font-size:small ;
+    }
+    .lists2 a{
+        text-decoration: none;
+    }
+
+    .li2{
+        list-style: none;
+        padding: 4px 0 20px;
+        line-height: 21px;
+    }
+
+    #p1{
+        padding-top: 7px;
+    }
+    header img{
+        height: 25px;
+
+    }
+
+    .section-bg{
+        background-color: white;
+
+    }
+
+    #icons{
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+    }
+    #icons li{
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+    h2{
+        margin: 0;
+    }
+    footer{
+        background-color: white;
+        color: black;
+        text-align: center;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 2px;
+        border-top:black ;
+    }
+    footer p{
+        font-size: small;
+    }
+    main div img{
+        height: 130px;
+
+    }
+    .lists li{
+        margin-bottom: 5px;
+
+    }
+    header .padding-h{
+        padding-left: 0;
+    }
+#p1{
+    left: 0;
+}
 }
