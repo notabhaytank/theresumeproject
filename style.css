@@ -16,9 +16,7 @@ body{
 .color{
 color: var(--primary-color);
 }
-.color1{
-    color: var(--secondary-color);
-}
+
 :root{
     --primary-color:black;
     --secondary-color:white;
@@ -64,17 +62,18 @@ i{
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     width: 300px;
-    color:  var(--secondary-color);
+    color:  white;
     padding: 10px 14px;
     /*justify-content: center;*/
 
 
     margin :10px 0;
+    border: 2px solid white;
     border-radius: 7px;
-    background: var(--primary-color);
+    background: black;
 
     /* shadow */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);*/
     border-top-left-radius: 0;
 
 
