@@ -88,10 +88,17 @@ header p{
     font-weight:500;
 
 }
+article{
+    margin-bottom: 50px;
+}
 .lists2{
     padding-left: 20px;
     font-size:small ;
 }
+.lists2 a{
+    text-decoration: none;
+}
+
 .li2{
     list-style: none;
     padding: 4px 0px 20px;
