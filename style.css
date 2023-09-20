@@ -16,6 +16,9 @@ body{
 .color{
 color: var(--primary-color);
 }
+.color1{
+    color: var(--secondary-color);
+}
 :root{
     --primary-color:black;
     --secondary-color:white;
