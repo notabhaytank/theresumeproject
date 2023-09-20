@@ -13,11 +13,12 @@ header{
     display: flex;
     width: 100%;
     top: 0;
-color: white;
+color: black;
     height: auto;
     position: fixed;
-    background-color: black;
+    background-color: white;
     justify-content: space-between;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
 
 }
 #div1{
@@ -118,5 +119,9 @@ footer p{
 }
 main div img{
     height: 130px;
+
+}
+.lists li{
+    margin-bottom: 5px;
 
 }
