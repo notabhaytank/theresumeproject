@@ -7,6 +7,10 @@ body{
     /*margin: 0px 20px 0px 20px;*/
     font-family: Montserrat, sans-serif;
 }
+.lists{
+    padding: 2px 0px;
+    list-style: none;
+}
 header{
 
 
@@ -38,12 +42,12 @@ i{
     font-weight: bold;
     width: 300px;
     color: white;
-    padding: 8px 24px;
+    padding: 10px 24px;
     justify-content: center;
 
 
     margin :10px 0px;
-    border-radius: 10px;
+    border-radius: 7px;
     background: black;
 
     /* shadow */
@@ -67,6 +71,12 @@ main{
 
 }
 
+.lists .li1{
+    border-left: 3px solid #d8720d;
+    padding: 0px 9px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 .padding-h{
     padding: 2px 20px 0px 20px;
 }
@@ -100,6 +110,7 @@ header img{
 #icons li{
     padding-right: 10px;
     padding-left: 10px;
+
 }
 h2{
     margin: 0;
