@@ -10,6 +10,7 @@ body{
 .lists{
     padding: 2px 0px;
     list-style: none;
+    margin: 25px 0px ;
 }
 header{
 
@@ -73,9 +74,10 @@ main{
 
 .lists .li1{
     border-left: 3px solid #d8720d;
-    padding: 0px 9px;
+    padding: 0px 15px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
+
 }
 .padding-h{
     padding: 2px 20px 0px 20px;
@@ -86,6 +88,14 @@ main{
 header p{
     font-weight:500;
 
+}
+.lists2{
+    padding-left: 20px;
+    font-size:small ;
+}
+.li2{
+    list-style: none;
+    padding: 5px 0px 20px;
 }
 #p1{
     padding-top: 7px;
