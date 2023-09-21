@@ -1,38 +1,38 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="src/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f7e347fa2e.js" crossorigin="anonymous"></script>
-    <title>Abhay Tank</title>
+    <title>The Resume Project</title>
 </head>
+
 <body>
-<header class="padding-h">
+<header class="header-padding">
 
         <p id="p1">< abhaytank_ ></p>
-    <p ><img src="110801_sun_icon1.svg" id="icon" alt=""></p>
+        <p ><img src="sun.svg" id="icon" alt="dark_toogle"></p>
 
 
 
 </header>
 
 <main>
-    <article class=" intro section-bg padding">
-    <div id="div1">
-        <img src="code_orange.svg"  alt=""/>
+
+    <article class=" intro padding">
+        <div id="div1">
+        <img src="assets/header_img.svg" alt=""/>
         <h3 id="greeting">Hello World!</h3>
         <h2>This is <span>ABHAY TANK</span></h2>
         <p class="italic"> A tech enthusiast on the lookout for exciting opportunities to kickstart his career 🚀</p>
-    </div>
+        </div>
 
-    <div>
-        <a href="https://en.wikipedia.org/wiki/HTTP_404"><button class="buttons"><span> RESUME</span><i class="fa-solid fa-angles-right color1" ></i> </button></a>
+        <div id="buttons">
+        <a href="src/page2.html"><button class="buttons"><span> RESUME</span><i class="fa-solid fa-angles-right color1" ></i> </button></a>
         <a href="https://www.instagram.com/abhaytank_"><button class="buttons"><span> REACH OUT </span> <i class="fa-solid fa-message color1" ></i></button></a>
-    </div>
+        </div><br />
 
-
-    <br />
     </article>
 
     <section class="section-bg padding">
@@ -43,42 +43,48 @@
             <ul class="lists2" >
                 <li class="li2">100x Engineers • Cohort 01 '2023  </li>
             </ul>
+
             <li class="li1">Intro to Python { Basic & Advance }</li>
             <ul class="lists2" >
                 <li class="li2">IIT Kanpur • EICT • On-Campus Winter Training • Batch '2022  </li>
             </ul>
+
             <li class="li1">Data Analytics w/ Python</li>
             <ul class="lists2" >
                 <li class="li2">CodingNinjas •  2023  </li>
             </ul>
+
             <li class="li1">Data Science and Machine Learning</li>
             <ul class="lists2" >
                 <li class="li2">CodingNinjas •  2023-2024  </li>
             </ul>
-            <li class="li1">BS IN DATA SCIENCE & APPLICATIONS
-            </li>
+
+            <li class="li1">BS IN DATA SCIENCE & APPLICATIONS</li>
             <ul class="lists2" >
                 <li class="li2">IIT Madras '26 • 4 Year Hybrid UG Degree  </li>
             </ul>
+
         </ul><br>
     </section>
 
 
-    <section class="section-bg padding">
+    <section class="padding">
         <h2>MAJOR PROJECTS</h2>
         <ul class="lists">
+
             <li class="li1">100x MicroBlogging App</li>
             <ul class="lists2" >
-                <li class="li2">Full Functional Clone of X.com { Previously Twitter } • Capstone Project @ 100xEngineers <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/capstone</a> </li>
+                <li class="li2">Full Functional Clone of X.com { Previously Twitter } • Capstone Project @ 100xEngineers <br> <a href="src/page2.html">abhaytank.in/capstone</a> </li>
             </ul>
+
             <li class="li1">Spotify Clone</li>
             <ul class="lists2" >
-                <li class="li2"> Imaginary Project { Just to fill Space } • HTML • TailWind CSS  • JS <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/spotify</a> </li>
+                <li class="li2"> Imaginary Project { Just to fill Space } • HTML • TailWind CSS  • JS <br> <a href="src/page2.html">abhaytank.in/spotify</a> </li>
             </ul>
 
             <li class="li1">TWITTER SENTIMENT ANALYSIS</li>
             <ul class="lists2" >
-                <li class="li2">Analytics Project { Just to fill Space } • Python • ML <br> <a href="https://en.wikipedia.org/wiki/HTTP_404">abhaytank.in/analytics</a> </li>
+                <li class="li2">Analytics Project { Just to fill Space } • Python • ML <br> <a href="src/page2.html">abhaytank.in/analytics</a> </li>
             </ul>
 
         </ul><br>
@@ -89,30 +95,29 @@
     <section class="section-bg padding">
         <h2>SKILLS</h2>
         <ul class="lists">
+
             <li class="li1">Front-End </li>
             <ul class="lists2" >
                 <li class="li2">HTML • CSS • TailWind CSS • BootStrap • JavaScript • React.js </li>
             </ul>
+
             <li class="li1">Back-End </li>
             <ul class="lists2" >
                 <li class="li2">Node.js • Python  </li>
             </ul>
+
             <li class="li1">WorkSpace </li>
             <ul class="lists2" >
                 <li class="li2">Figma • Git • GitHub • Slack • Versel • Basic-Design </li>
             </ul>
+
             <li class="li1">Latest AI Tools</li>
             <ul class="lists2" >
                 <li class="li2">Figma • Git • GitHub • Slack • Versel • Basic-Design </li>
             </ul>
 
-
         </ul>
     </section>
-
-
-
-
 
 
 </main>
@@ -126,15 +131,16 @@
         <li><i class="fa-brands fa-github color" ></i></li>
 
     </ul>
-    <p>Assignment, 01 HTML & CSS</p>
+    <p>Assignment 02, HTML & CSS</p>
 </footer>
+
 <script type="text/javascript">
     var icon = document.getElementById("icon");
     icon.onclick = function (){
         document.body.classList.toggle("dark-theme");
         if(document.body.classList.contains("dark-theme")){
             icon.src = "moon.svg"
-        }else icon.src = "110801_sun_icon1.svg"
+        }else icon.src = "sun.svg"
     }
 
 </script>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+}
+
+.dark-theme{
+    --primary-color:white;
+    --secondary-color:black;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.lists{
+    padding: 2px 0;
+    list-style: none;
+    margin: 25px 0;
+}
+.color{
+    color: var(--primary-color);
+}
+
+
+header{
+    display: flex;
+    width: 100vw;
+    top: 0;
+    color: var(--primary-color);
+    height: auto;
+    position: fixed;
+    background-color:  var(--secondary-color);
+    justify-content: space-between;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.intro p {
+    line-height: 21px;
+}
+
+#div1{
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+i{
+    margin-top:2px;
+}
+
+.buttons span{
+    margin: 0 15px ;
+}
+
+.buttons{
+    display: flex;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    color:  white;
+    padding: 10px 14px;
+    margin :10px 0;
+    border: 2px solid white;
+    background: black;
+    border-radius: 0 7px 7px 7px;
+}
+
+#buttons a{
+    text-decoration: none;
+}
+
+header p{
+    padding-top: 3px;
+}
+
+main{
+    margin-top: 100px;
+
+}
+
+.lists .li1{
+    border-left: 4px solid #d8720d;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header-padding{
+    padding: 2px 20px 0 20px;
+}
+
+.padding{
+    padding: 20px 20px 0 20px;
+}
+
+header p{
+    font-weight:500;
+}
+
+article{
+    margin-bottom: 40px;
+}
+
+.lists2{
+    padding-left: 20px;
+    font-size:small ;
+}
+
+.lists2 a{
+    text-decoration: none;
+}
+
+.li2{
+    list-style: none;
+    padding: 4px 0 20px;
+    line-height: 21px;
+}
+
+#p1{
+    padding-top: 7px;
+}
+
+header img{
+    height: 25px;
+    padding-right: 40px;
+}
+
+.section-bg{
+    background-color:  var(--secondary-color);
+}
+
+#icons{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#icons li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h2{
+    margin: 0;
+}
+
+footer{
+    background-color:  var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 2px;
+    border-top:var(--primary-color) ;
+}
+
+footer p{
+    font-size: small;
+}
+
+main div img{
+    height: 130px;
+}
+
+.lists li{
+    margin-bottom: 5px;
+}
+
+
+
+@media (min-width: 769px) {
+
+    main{
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+
+
+}
+
+
